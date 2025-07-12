@@ -1,0 +1,98 @@
+:root {
+    --color-primary: #EB7096;
+    --color-secondary: #EBBAC2;
+    --color-accent: #EDB240;
+    --color-background: #F5F2F0;
+    --color-text: #333;
+    --color-disabled: #ccc;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+    color: var(--color-text);
+}
+
+header h1 {
+    color: white;
+}
+
+#malla-curricular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.semestre {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+.semestre h2 {
+    color: var(--color-accent);
+    margin-top: 0;
+    border-bottom: 2px solid var(--color-secondary);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.materia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: var(--color-background);
+    transition: background-color 0.3s ease;
+}
+
+.materia:hover {
+    background-color: var(--color-secondary);
+}
+
+.materia input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.materia.aprobada {
+    text-decoration: line-through;
+    color: var(--color-disabled);
+    background-color: #e0e0e0;
+}
+
+.materia.bloqueada {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #666;
+    border-top: 1px solid #eee;
+}
