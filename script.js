@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
             courses: [
                 { id: "IST7420", name: "IST 7420 - Optimización", prerequisites: ["IST4360", "EST7042"] },
                 { id: "IST7121", name: "IST 7121 - Diseño de Software I", prerequisites: ["IST7111"] },
-                { id: "IST70811", name: "IST 70811 - Sistemas Operativos", prerequisites: ["IST4031_1", "IST4012"] },
+                { id: "IST70811", name: "IST 70811 - Sistemas Operativos", prerequisites: ["IST4021", "IST4012"] },
                 { id: "IST7102", name: "IST 7102 - Estructura del Computador II", prerequisites: ["IST4012"] },
                 { id: "ELG1170", name: "ELG 1170 - Electiva en Ética", prerequisites: [] }
             ]
