@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             courses: [
                 { id: "MAT1121", name: "MAT 1121 - Cálculo III - Vectorial", prerequisites: ["MAT1111"] },
                 { id: "FIS1033", name: "FIS 1033 - Física Calor-Ondas", prerequisites: ["FIS1023"] },
-                { id: "IST2101", name: "IST 2101 - Programación Orientada a Objetos", prerequisites: ["IST2089"] },
+                { id: "IST2110", name: "IST 2110 - Programación Orientada a Objetos", prerequisites: ["IST2089"] },
                 { id: "IST4021", name: "IST 4021 - Estructura de Datos I", prerequisites: ["IST2089"] },
                 { id: "ELG1130", name: "ELG 1130 - Electiva en Humanidades", prerequisites: [] }
             ]
