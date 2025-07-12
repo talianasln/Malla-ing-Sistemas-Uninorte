@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             courses: [
                 { id: "IST7122", name: "IST 7122 - Diseño de Software II", prerequisites: ["IST7121"] },
                 { id: "IST1302", name: "IST 1302 - Electiva en Redes", prerequisites: ["IST7191"] },
-                { id: "IST7410", name: "IST 7410 - Compiladores", prerequisites: ["IST2110", "IST4021"] },
+                { id: "IST7410", name: "IST 7410 - Compiladores", prerequisites: ["IST2110", "IST4031"] },
                 { id: "ELG1301", name: "ELG 1301 - Electiva Profesional II", prerequisites: [] },
                 { id: "ELG1190", name: "ELG 1190 - Electiva en Ciencias Sociales", prerequisites: [] },
                 { id: "ELG8400", name: "ELG 8400 - Electiva en Innovación, Dilo. y Sociedad", prerequisites: [] }
