@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Semestre 2",
             courses: [
                 { id: "MAT1111", name: "MAT 1111 - Cálculo II - Integral", prerequisites: ["MAT1101"] },
-                { id: "FIS1043", name: "FIS 1043 - Física Mecánica", prerequisites: ["MAT1101"] },
+                { id: "FIS1023", name: "FIS 1023 - Física Mecánica", prerequisites: ["MAT1101"] },
                 { id: "IST2089", name: "IST 2089 - Algoritmia y Programación II", prerequisites: ["IST2088"] },
                 { id: "CAS3030", name: "CAS 3030 - Competencias Comunicativas II", prerequisites: ["CAS3020"] },
                 { id: "ELG1140", name: "ELG 1140 - Electiva en Historia", prerequisites: [] }
@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Semestre 3",
             courses: [
                 { id: "MAT1121", name: "MAT 1121 - Cálculo III - Vectorial", prerequisites: ["MAT1111"] },
-                { id: "FIS1045", name: "FIS 1045 - Física Calor-Ondas", prerequisites: ["FIS1023"] },
+                { id: "FIS1033", name: "FIS 1033 - Física Calor-Ondas", prerequisites: ["FIS1023"] },
                 { id: "IST2101", name: "IST 2101 - Programación Orientada a Objetos", prerequisites: ["IST2089"] },
-                { id: "IST4031_1", name: "IST 4031 - Estructura de Datos I", prerequisites: ["IST2089"] },
+                { id: "IST4021", name: "IST 4021 - Estructura de Datos I", prerequisites: ["IST2089"] },
                 { id: "ELG1130", name: "ELG 1130 - Electiva en Humanidades", prerequisites: [] }
             ]
         },
@@ -36,9 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Semestre 4",
             courses: [
                 { id: "MAT4011", name: "MAT 4011 - Ecuaciones Diferenciales", prerequisites: ["MAT1111"] },
-                { id: "FIS1043_ELEC", name: "FIS 1043 - Física Electricidad", prerequisites: ["FIS1023", "MAT1111"] },
+                { id: "FIS1043", name: "FIS 1043 - Física Electricidad", prerequisites: ["FIS1023", "MAT1111"] },
                 { id: "ELG1150", name: "ELG 1150 - Electiva en Ciencias de la Vida", prerequisites: [] },
-                { id: "IST4031_2", name: "IST 4031 - Estructura de Datos II", prerequisites: ["IST4031_1"] },
+                { id: "IST4031", name: "IST 4031 - Estructura de Datos II", prerequisites: ["IST4021"] },
                 { id: "MAT4021", name: "MAT 4021 - Matemáticas Discretas", prerequisites: [] }
             ]
         },
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             courses: [
                 { id: "IST7122", name: "IST 7122 - Diseño de Software II", prerequisites: ["IST7121"] },
                 { id: "IST1302", name: "IST 1302 - Electiva en Redes", prerequisites: ["IST7191"] },
-                { id: "IST7410", name: "IST 7410 - Compiladores", prerequisites: ["IST2110", "IST4031_1"] },
+                { id: "IST7410", name: "IST 7410 - Compiladores", prerequisites: ["IST2110", "IST4021"] },
                 { id: "ELG1301", name: "ELG 1301 - Electiva Profesional II", prerequisites: [] },
                 { id: "ELG1190", name: "ELG 1190 - Electiva en Ciencias Sociales", prerequisites: [] },
                 { id: "ELG8400", name: "ELG 8400 - Electiva en Innovación, Dilo. y Sociedad", prerequisites: [] }
